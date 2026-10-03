@@ -58,3 +58,18 @@ Full-stack trading research and analytics platform.
 https://github.com/bondarenkodenis0907-web/tradepilot-ai-showcase
 
 The production source code is private.
+
+## What I Can Help With
+
+- Supabase Auth and session issues
+- Row Level Security and user permissions
+- Next.js dashboards and client portals
+- PostgreSQL data flows and CRUD
+- API integrations
+- Bug fixing and troubleshooting
+- Git / GitHub workflows
+- Production deployment
+
+## Current Focus
+
+Building reliable Next.js + Supabase applications and taking on clearly scoped freelance tasks where the result can be reproduced, tested and verified.

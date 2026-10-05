@@ -30,9 +30,10 @@ Secure full-stack client portal built with Next.js, TypeScript and Supabase.
 - Supabase Authentication
 - Protected routes and persistent sessions
 - PostgreSQL-backed profile management
-- Row Level Security
+- Service request creation and history
+- Row Level Security for user-owned data
+- Automated pgTAP RLS tests in CI
 - Loading, error and empty states
-- GitHub Actions CI
 - Vercel production deployment
 
 **Live Demo:** https://client-portal-dashboard-one.vercel.app

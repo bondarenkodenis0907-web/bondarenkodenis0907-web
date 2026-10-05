@@ -4,7 +4,7 @@
 
 I build and troubleshoot web applications with a focus on authentication, Row Level Security, dashboards, PostgreSQL and API integrations.
 
-My background is in technical systems and troubleshooting, where I spent years diagnosing faults, finding root causes and solving problems independently. I apply the same structured approach to software development: reproduce the issue, identify the cause, make focused changes and test the result.
+I moved into software development from technical systems and troubleshooting, bringing the same root-cause approach to web applications.
 
 ## Tech Stack
 

@@ -18,7 +18,7 @@ I moved into software development from technical systems and troubleshooting, br
 - Tailwind CSS
 - Git
 - GitHub Actions
-- Netlify
+- Vercel
 
 ## Featured Projects
 
@@ -33,9 +33,9 @@ Secure full-stack client portal built with Next.js, TypeScript and Supabase.
 - Row Level Security
 - Loading, error and empty states
 - GitHub Actions CI
-- Netlify production deployment
+- Vercel production deployment
 
-**Live Demo:** https://client-portal-dashboard.netlify.app
+**Live Demo:** https://client-portal-dashboard-one.vercel.app
 
 **Repository:** https://github.com/bondarenkodenis0907-web/client-portal-dashboard
 

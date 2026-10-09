@@ -2,6 +2,8 @@
 
 I work with Next.js, TypeScript and Supabase: sign-in flows, dashboards, PostgreSQL data and API integrations.
 
+[Message me on Telegram](https://t.me/BDenisD) · [LinkedIn](https://www.linkedin.com/in/denis-bondarenko-a94491388)
+
 I moved into development from technical systems and troubleshooting. My current projects involve the same kind of work: trace a problem through the interface, API and database, then check the fix against the case that failed.
 
 ## Projects
@@ -28,4 +30,4 @@ The public showcase explains the system boundaries and a few implementation deci
 - Next.js dashboards, profile screens and request forms.
 - PostgreSQL queries, API integrations and fixes that can be reproduced and checked.
 
-For a scoped task, the useful starting point is the current behavior, the expected result and a way to reproduce the problem.
+To discuss a task, message me on [Telegram](https://t.me/BDenisD) with the current behavior, the expected result and a way to reproduce the problem. For a new feature, describe who will use it and what they need to do.

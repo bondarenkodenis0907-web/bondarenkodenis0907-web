@@ -1,76 +1,31 @@
 # Denis Bondarenko
 
-## Next.js & Supabase Developer
+I work with Next.js, TypeScript and Supabase: sign-in flows, dashboards, PostgreSQL data and API integrations.
 
-I build and troubleshoot web applications with a focus on authentication, Row Level Security, dashboards, PostgreSQL and API integrations.
+I moved into development from technical systems and troubleshooting. My current projects involve the same kind of work: trace a problem through the interface, API and database, then check the fix against the case that failed.
 
-I moved into software development from technical systems and troubleshooting, bringing the same root-cause approach to web applications.
-
-## Tech Stack
-
-- Next.js
-- TypeScript
-- React
-- Supabase
-- PostgreSQL
-- Row Level Security
-- API Integration
-- Tailwind CSS
-- Git
-- GitHub Actions
-- Vercel
-
-## Featured Projects
+## Projects
 
 ### Client Portal Dashboard
 
-Secure full-stack client portal built with Next.js, TypeScript and Supabase.
+A portal for service requests at buildings and sites. Users manage a profile, submit an issue and view their request history.
 
-**Highlights**
-- Supabase Authentication
-- Protected routes and persistent sessions
-- PostgreSQL-backed profile management
-- Service request creation and history
-- Row Level Security for user-owned data
-- Automated pgTAP RLS tests in CI
-- Loading, error and empty states
-- Vercel production deployment
+Data access is enforced with PostgreSQL ownership policies. The public repository includes SQL tests that check access from two different users, plus CI for code checks, a production build and database tests. The staff workflow for assigning and closing requests is still to be built.
 
-**Live Demo:** https://client-portal-dashboard-one.vercel.app
-
-**Repository:** https://github.com/bondarenkodenis0907-web/client-portal-dashboard
+[Source and setup](https://github.com/bondarenkodenis0907-web/client-portal-dashboard) · [Live demo](https://client-portal-dashboard-one.vercel.app)
 
 ### TradePilot AI
 
-Full-stack trading research and analytics platform.
+A private application for reviewing exchange data, keeping a trade journal and testing research ideas. It combines Bybit data, Supabase/PostgreSQL, background research and Telegram notifications. Exchange access is read-only.
 
-**Engineering highlights**
-- Next.js and TypeScript
-- Supabase/PostgreSQL
-- API integrations
-- Automated research workers
-- Strategy evaluation
-- Telegram integration
-- CI workflows
-- Database and application-level tests
-- Security and RLS checks
+The public showcase explains the system boundaries and a few implementation decisions, with screenshots of the Russian-language interface. Source code and account data remain private.
 
-**Technical Showcase:**  
-https://github.com/bondarenkodenis0907-web/tradepilot-ai-showcase
+[TradePilot showcase](https://github.com/bondarenkodenis0907-web/tradepilot-ai-showcase)
 
-The production source code is private.
+## Work I take on
 
-## What I Can Help With
+- Supabase sign-in, session and row-access problems.
+- Next.js dashboards, profile screens and request forms.
+- PostgreSQL queries, API integrations and fixes that can be reproduced and checked.
 
-- Supabase Auth and session issues
-- Row Level Security and user permissions
-- Next.js dashboards and client portals
-- PostgreSQL data flows and CRUD
-- API integrations
-- Bug fixing and troubleshooting
-- Git / GitHub workflows
-- Production deployment
-
-## Current Focus
-
-Building reliable Next.js + Supabase applications and taking on clearly scoped freelance tasks where the result can be reproduced, tested and verified.
+For a scoped task, the useful starting point is the current behavior, the expected result and a way to reproduce the problem.

@@ -1,33 +1,39 @@
 # Denis Bondarenko
 
-I work with Next.js, TypeScript and Supabase: sign-in flows, dashboards, PostgreSQL data and API integrations.
+**Next.js & Supabase Developer**
 
-[Message me on Telegram](https://t.me/BDenisD) · [LinkedIn](https://www.linkedin.com/in/denis-bondarenko-a94491388)
+I build service portals and dashboards with Next.js, TypeScript, Supabase and PostgreSQL. My work covers authentication, database access controls, request workflows and API integrations.
 
-I moved into development from technical systems and troubleshooting. My current projects involve the same kind of work: trace a problem through the interface, API and database, then check the fix against the case that failed.
+[Telegram](https://t.me/BDenisD) · [LinkedIn](https://www.linkedin.com/in/denis-bondarenko-a94491388)
 
-## Projects
+My technical background includes installation, commissioning and troubleshooting of video surveillance, access control and other building systems. I bring the same approach to software: reproduce a problem, trace it through the interface, API and database, then verify the fix against the original case.
+
+## Selected projects
 
 ### Client Portal Dashboard
 
-A portal for service requests at buildings and sites. Users manage a profile, submit an issue and view their request history.
+A portfolio application for reporting and processing issues with building and site systems.
 
-Data access is enforced with PostgreSQL ownership policies. The public repository includes SQL tests that check access from two different users, plus CI for code checks, a production build and database tests. The staff workflow for assigning and closing requests is still to be built.
+Clients submit requests and follow their progress. Staff assign an engineer, start work and record a resolution. The client can see the completed work and request history.
 
-[Source and setup](https://github.com/bondarenkodenis0907-web/client-portal-dashboard) · [Live demo](https://client-portal-dashboard-one.vercel.app)
+PostgreSQL enforces client ownership, staff permissions and valid status transitions. Saves detect conflicting updates, and history records are protected from direct editing.
+
+CI runs lint, TypeScript, a production build, SQL access tests and a browser workflow against an isolated local Supabase backend. The browser test follows a request from submission to closure and checks the result in the client's account and the database.
+
+[Source and setup](https://github.com/bondarenkodenis0907-web/client-portal-dashboard) · [Live demo](https://client-portal-dashboard-one.vercel.app) · [CI checks](https://github.com/bondarenkodenis0907-web/client-portal-dashboard/actions)
 
 ### TradePilot AI
 
-A private application for reviewing exchange data, keeping a trade journal and testing research ideas. It combines Bybit data, Supabase/PostgreSQL, background research and Telegram notifications. Exchange access is read-only.
+A private application combining Bybit exchange data, a trade journal, strategy research and Telegram notifications. Exchange access is read-only; background research runs separately from the web interface.
 
-The public showcase explains the system boundaries and a few implementation decisions, with screenshots of the Russian-language interface. Source code and account data remain private.
+The public showcase contains interface screenshots, architecture notes and implementation decisions. Source code, account data and executable tests remain private.
 
-[TradePilot showcase](https://github.com/bondarenkodenis0907-web/tradepilot-ai-showcase)
+[Public showcase](https://github.com/bondarenkodenis0907-web/tradepilot-ai-showcase)
 
 ## Work I take on
 
-- Supabase sign-in, session and row-access problems.
-- Next.js dashboards, profile screens and request forms.
-- PostgreSQL queries, API integrations and fixes that can be reproduced and checked.
+- Next.js dashboards, account screens and request workflows.
+- Supabase authentication, session handling and PostgreSQL access controls.
+- PostgreSQL queries, API integrations and reproducible bug fixes.
 
-To discuss a task, message me on [Telegram](https://t.me/BDenisD) with the current behavior, the expected result and a way to reproduce the problem. For a new feature, describe who will use it and what they need to do.
+To discuss a task, message me on [Telegram](https://t.me/BDenisD). Include the current behavior, expected result and steps to reproduce the issue. For a new feature, describe its users and the workflow they need.
